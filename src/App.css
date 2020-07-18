@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.App-header {
+.AppHeader {
   background-color: #222;
-  height: 150px;
+  height: 100%;
   padding: 20px;
   color: white;
 }
