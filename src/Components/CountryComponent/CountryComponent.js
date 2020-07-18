@@ -9,9 +9,7 @@ const countryComponent = (props) => {
   return (
     <Card style={{ width: "275px", display: "inline-block", margin: "10px" }}>
       <CardContent>
-        <Typography>
-          <h3>{props.country}</h3>
-        </Typography>
+        <Typography>{props.country}</Typography>
       </CardContent>
       <CardActions>
         <Button size="small" onClick={props.clicked}>
